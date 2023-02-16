@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px){
+  .place__padding_mobile {
+    padding: 0 16px 0;
+  }
+
+}
