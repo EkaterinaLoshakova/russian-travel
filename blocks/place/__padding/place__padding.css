@@ -24,8 +24,8 @@
 
 @media screen and (max-width: 768px) {
   .place__padding {
-  padding-left: calc(0 + (24 - 0) * ((100vw - 320px) / (768 - 320)));
-  padding-right: calc(0 + (24 - 0) * ((100vw - 320px) / (768 - 320)));
+  padding-left: calc(24 * ((100vw - 320px) / (768 - 320)));
+  padding-right: calc(24 * ((100vw - 320px) / (768 - 320)));
   padding-bottom: 73px;
   }
 }
