@@ -1,19 +1,16 @@
-.header__padding {
+.page__padding-header {
   padding: 28px 48px 56px;
- /*padding-left: calc(16px + (48 - 16) * ((100vw - 320px) / (1280 - 320)));
-  padding-right: calc(16px + (48 - 16) * ((100vw - 320px) / (1280 - 320)));*/
 }
 
-
 @media screen and (max-width: 1024px) {
-  .header__padding {
+  .page__padding-header {
     padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
     padding-right: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
     padding-bottom: 48px;
   }
 }
 @media screen and (max-width: 768px){
-   .header__padding {
+   .page__padding-header {
     padding-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
     padding-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
     padding-bottom: 48px;
@@ -21,7 +18,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header__padding {
+  .page__padding-header {
     padding-top: 16px;
   }
 }

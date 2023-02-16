@@ -1,38 +1,35 @@
-.place__padding {
-  padding-bottom: 80px;
+.page__padding-places {
   padding-left: 148px;
   padding-right: 148px;
 }
 
-.place__padding:last-child {
+.places__padding:last-child {
   padding-bottom: 0;
 }
 
 @media screen and (max-width: 1280px) {
-  .place__padding {
+  .page__padding-places {
   padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
   padding-right: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .place__padding {
+  .page__padding-places {
   padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
   padding-right: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__padding {
+  .page__padding-places {
   padding-left: calc(24 * ((100vw - 320px) / (768 - 320)));
   padding-right: calc(24 * ((100vw - 320px) / (768 - 320)));
-  padding-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .place__padding {
-    padding-bottom: 50px;
+  .page__padding-places {
+    padding: 0 0 50px;
   }
 }
-
