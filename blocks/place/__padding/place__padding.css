@@ -1,7 +1,18 @@
 .place__padding {
   padding-bottom: 80px;
+  padding-left: 148px;
+  padding-right: 148px;
+}
+
+.place__padding:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__padding {
   padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
   padding-right: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,7 +36,3 @@
   }
 }
 
-
-.place__padding:last-child {
-  padding-bottom: 0;
-}
