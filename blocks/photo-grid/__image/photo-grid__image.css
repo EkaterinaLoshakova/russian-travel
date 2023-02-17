@@ -2,4 +2,25 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  aspect-ratio: 4/3;
 }
+
+@media screen and (max-width: 1279px) {
+  .photo-grid__image {
+    aspect-ratio: 100/75;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid__image {
+    aspect-ratio: 88/66;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__image {
+    aspect-ratio: 96/72;
+  }
+}
+
+

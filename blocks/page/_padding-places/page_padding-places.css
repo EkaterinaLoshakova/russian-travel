@@ -3,10 +3,6 @@
   padding-right: 148px;
 }
 
-.places__padding:last-child {
-  padding-bottom: 0;
-}
-
 @media screen and (max-width: 1280px) {
   .page__padding-places {
   padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
@@ -30,6 +26,6 @@
 
 @media screen and (max-width: 767px) {
   .page__padding-places {
-    padding: 0 0 50px;
+    padding: 0 0 0;
   }
 }

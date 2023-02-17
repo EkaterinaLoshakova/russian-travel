@@ -13,7 +13,6 @@
    .page__padding-header {
     padding-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
     padding-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
-    padding-bottom: 48px;
   }
 }
 

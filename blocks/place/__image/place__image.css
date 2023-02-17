@@ -3,14 +3,7 @@
   object-fit: cover;
   grid-area: image;
   display: block;
-
+  aspect-ratio: 1/1;
 }
 
-/*@media screen and (max-width: 767px) {
-  .place__image {
-    position: relative;
-    margin-left: -50vw;
-    left: 50%;
-    width: 100vw;
-  }
-}*/
+

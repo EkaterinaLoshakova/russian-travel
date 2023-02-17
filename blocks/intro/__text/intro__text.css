@@ -12,9 +12,3 @@
     padding-bottom: 33px;
   }
 }
-
-@media screen and (max-width: 767px) {
-  .intro__text {
-    padding-bottom: 32px;
-  }
-}

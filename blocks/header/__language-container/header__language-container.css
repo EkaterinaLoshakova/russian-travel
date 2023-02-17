@@ -5,6 +5,7 @@
   padding: 0;
   align-items: end;
   padding-bottom: 6px;
+  column-gap: 18px;
 }
 
 @media screen and (max-width: 767px) {
